@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-hidden="true">
+<defs><linearGradient id="ggraphic-design" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A3B2C"/><stop offset="1" stop-color="#146C43"/></linearGradient></defs>
+<rect width="480" height="300" fill="url(#ggraphic-design)"/>
+<circle cx="410" cy="40" r="110" fill="#FFFFFF" opacity=".05"/><circle cx="40" cy="290" r="120" fill="#2E9E68" opacity=".12"/>
+
+<circle cx="160" cy="120" r="56" fill="#2E9E68" opacity=".95"/><rect x="190" y="80" width="100" height="100" rx="12" fill="#FFFFFF" opacity=".92"/><path d="M270 190l60-100 60 100z" fill="#CFE8D8"/>
+<path d="M120 200c40-30 80 20 120-10s60-10 100-30" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="2 9" stroke-linecap="round"/>
+<rect x="116" y="196" width="14" height="14" fill="#0A3B2C" stroke="#FFFFFF" stroke-width="3"/><rect x="333" y="150" width="14" height="14" fill="#0A3B2C" stroke="#FFFFFF" stroke-width="3"/>
+<text x="24" y="276" font-family="sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#CFE8D8">GRAPHIC DESIGN</text></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-hidden="true">
+<defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EEF6F1"/><stop offset="1" stop-color="#CFE8D8"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0A3B2C" flood-opacity=".18"/></filter></defs>
+<rect width="640" height="520" rx="28" fill="url(#hg)"/>
+<circle cx="560" cy="70" r="90" fill="#2E9E68" opacity=".15"/><circle cx="70" cy="470" r="110" fill="#146C43" opacity=".12"/>
+<g filter="url(#sh)">
+<rect x="70" y="70" width="450" height="320" rx="16" fill="#FFFFFF"/>
+<rect x="70" y="70" width="450" height="40" rx="16" fill="#0A3B2C"/><rect x="70" y="94" width="450" height="16" fill="#0A3B2C"/>
+<circle cx="94" cy="90" r="5" fill="#CFE8D8"/><circle cx="112" cy="90" r="5" fill="#2E9E68"/><circle cx="130" cy="90" r="5" fill="#FFFFFF" opacity=".6"/>
+<rect x="90" y="130" width="120" height="14" rx="7" fill="#0A3B2C"/><rect x="90" y="154" width="190" height="9" rx="4.5" fill="#CFE8D8"/>
+<rect x="320" y="128" width="170" height="90" rx="10" fill="#EEF6F1"/>
+<polyline points="332,200 362,170 392,184 424,150 478,160" fill="none" stroke="#146C43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(40,120)"><rect x="60" y="200" width="20" height="50" rx="4" fill="#CFE8D8"/><rect x="94" y="170" width="20" height="80" rx="4" fill="#2E9E68"/><rect x="128" y="185" width="20" height="65" rx="4" fill="#CFE8D8"/><rect x="162" y="130" width="20" height="120" rx="4" fill="#146C43"/><rect x="196" y="155" width="20" height="95" rx="4" fill="#2E9E68"/><rect x="230" y="100" width="20" height="150" rx="4" fill="#0A3B2C"/></g>
+<rect x="320" y="232" width="170" height="10" rx="5" fill="#CFE8D8"/><rect x="320" y="252" width="120" height="10" rx="5" fill="#CFE8D8"/><rect x="320" y="272" width="150" height="10" rx="5" fill="#CFE8D8"/>
+<rect x="90" y="340" width="90" height="30" rx="8" fill="#146C43"/><text x="135" y="360" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Live class</text>
+</g>
+<g filter="url(#sh)">
+<rect x="400" y="330" width="190" height="120" rx="16" fill="#FFFFFF"/>
+<circle cx="440" cy="372" r="22" fill="#0A3B2C"/><path d="M428 372l12-8 12 8-12 8z" fill="#FFFFFF"/><path d="M434 378v7c0 3 12 3 12 0v-7" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="472" y="360" width="90" height="10" rx="5" fill="#0A3B2C"/><rect x="472" y="378" width="62" height="8" rx="4" fill="#CFE8D8"/>
+<rect x="420" y="410" width="150" height="10" rx="5" fill="#EEF6F1"/><rect x="420" y="410" width="112" height="10" rx="5" fill="#2E9E68"/>
+</g>
+<g filter="url(#sh)"><rect x="30" y="410" width="150" height="64" rx="14" fill="#0A3B2C"/>
+<circle cx="64" cy="442" r="14" fill="#2E9E68"/><path d="M57 442l5 5 9-10" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="90" y="438" font-family="sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">Certified</text><text x="90" y="456" font-family="sans-serif" font-size="11" fill="#CFE8D8">Verifiable code</text></g>
+</svg>

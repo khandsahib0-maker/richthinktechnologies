@@ -5,51 +5,73 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Contact & Apply | Rich Think Technologies</title>
 <meta name="description" content="Apply online, ask a question or verify a certificate.">
-<meta name="theme-color" content="#0C2433">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💡</text></svg>">
+<meta name="theme-color" content="#0A3B2C">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="topbar"><div class="wrap"><span>Helpline 0300-0000000 &nbsp; info@richthink.com &nbsp; Office 11am–6pm · Apply online 24/7</span><span><a href="contact.html">Contact</a><a href="contact.html#apply">Apply online</a></span></div></div>
+<div class="topbar"><div class="wrap"><span>WhatsApp / Helpline 0329-0739313 &nbsp;·&nbsp; info@richthink.com &nbsp;·&nbsp; Office 11am–6pm · Apply online 24/7</span><span><a href="contact.html">Contact</a><a href="contact.html#apply">Apply online</a></span></div></div>
 <header class="site"><div class="wrap">
-<a class="logo" href="index.html"><i></i>Rich Think Technologies</a>
+<a class="logo" href="index.html"><img src="images/favicon.svg" alt="" width="34" height="34">Rich Think Technologies</a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
 <nav id="nav" aria-label="Main"><ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="index.html#about">About</a></li>
 <li><a href="courses.html">Courses</a></li>
 <li><a href="index.html#opportunities">Opportunities</a><ul><li><a href="index.html#scholarships">Scholarships</a></li><li><a href="index.html#internships">Internships</a></li><li><a href="index.html#partner">Partner with us</a></li></ul></li>
-<li><a href="index.html#apply-steps">Info desk</a><ul><li><a href="index.html#apply-steps">How to apply</a></li><li><a href="index.html#faqs">FAQs</a></li><li><a href="contact.html">Verify certificate</a></li></ul></li>
-<li><a href="index.html#faqs">FAQs</a></li>
+<li><a href="index.html#apply-steps">Info desk</a><ul><li><a href="index.html#apply-steps">How to apply</a></li><li><a href="index.html#faqs">FAQs</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li><li><a href="contact.html#verify">Verify certificate</a></li></ul></li>
 <li><a href="contact.html">Contact</a></li>
 <li><a class="btn" href="contact.html#apply">Apply now</a></li>
 </ul></nav></div></header>
 <main>
-<div class="wrap pagehead"><h1>Contact and apply</h1></div>
-<div class="wrap split" style="padding-bottom:72px" id="apply">
-<div><h2 style="font-size:1.6rem;margin-bottom:16px">Send us a message</h2>
+
+<div class="pagehead"><div class="wrap"><span class="eyebrow">Admissions</span><h1>Apply and contact</h1><p class="lead" style="margin-top:12px">Complete the admission form below. Your details open in WhatsApp so our team can confirm your admission.</p></div></div>
+
+<section style="border:0;padding-top:24px" id="apply"><div class="wrap" style="max-width:860px">
+<div class="form-card">
+<h2 style="font-size:1.7rem;margin-bottom:6px">Student admission form</h2>
+<p class="hint" style="margin:0 0 22px">All fields are required. Please enter your information exactly as it appears on your CNIC / B-Form.</p>
+<form class="contact" id="apply-form" novalidate>
+<div class="fgrid">
+<div><label for="student_name">Student name</label><input id="student_name" name="student_name" autocomplete="name" required></div>
+<div><label for="father_name">Father name</label><input id="father_name" name="father_name" required></div>
+<div><label for="cnic">CNIC / B-Form number</label><input id="cnic" name="cnic" inputmode="numeric" placeholder="12345-1234567-1" pattern="\d{5}-\d{7}-\d" maxlength="15" required><div class="hint">13 digits, format 12345-1234567-1</div></div>
+<div><label for="city">City</label><input id="city" name="city" autocomplete="address-level2" required></div>
+<div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+<div><label for="whatsapp">WhatsApp number</label><input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" placeholder="03XX-XXXXXXX" required></div>
+<div class="full"><label for="address">Address</label><textarea id="address" name="address" rows="3" autocomplete="street-address" required></textarea></div>
+<div class="full"><label for="course">Course</label><select id="course" name="course" required><option value="">Select a course</option><option>Digital Marketing</option><option>Freelancing</option><option>Graphic Design</option><option>Artificial Intelligence</option><option>Full Stack Web Development</option><option>SEO</option><option>Data Science</option></select></div>
+</div>
+<label class="check"><input type="checkbox" id="terms" name="terms" required><span>I have read and agree to the <a href="terms.html" target="_blank" rel="noopener"><strong>Terms &amp; Conditions</strong></a> and confirm the information above is correct.</span></label>
+<button class="btn" type="submit">Submit application on WhatsApp</button>
+</form></div></div></section>
+
+<section class="tint"><div class="wrap split top">
+<div><span class="eyebrow">Quick message</span><h2 style="font-size:1.8rem;margin-bottom:16px">Have a question?</h2>
 <form class="contact" id="contact-form">
 <div><label for="name">Full name</label><input id="name" name="name" required></div>
 <div><label for="phone">Mobile / WhatsApp</label><input id="phone" name="phone" type="tel" required></div>
 <div><label for="topic">I am interested in</label><select id="topic" name="topic"><option>A course</option><option>An internship</option><option>A website or app for my business</option><option>Verifying a certificate</option><option>Something else</option></select></div>
 <div><label for="message">Message</label><textarea id="message" name="message" rows="4"></textarea></div>
 <button class="btn" type="submit">Send on WhatsApp</button></form></div>
-<div><h2 style="font-size:1.6rem;margin-bottom:16px">Find us</h2>
-<ul class="ticks" style="margin-bottom:24px"><li>Office address, Lahore</li><li>0300-0000000</li><li>info@richthink.com</li><li>Office and visits: 11:00 AM – 6:00 PM</li><li>Online admissions: 24/7</li></ul>
-<div class="card"><h3>Verify a certificate</h3><p>Add a certificate-check form or link here once your certificate system is ready.</p></div></div>
-</div>
+<div><span class="eyebrow">Find us</span><h2 style="font-size:1.8rem;margin-bottom:16px">Contact details</h2>
+<ul class="ticks" style="margin-bottom:24px"><li>Office address, Lahore, Pakistan</li><li>WhatsApp / Phone: <a href="https://wa.me/923290739313"><strong>0329-0739313</strong></a></li><li>Email: <a href="mailto:info@richthink.com">info@richthink.com</a></li><li>Office and visits: 11:00 AM – 6:00 PM</li><li>Online admissions: 24/7</li></ul>
+<div class="card" id="verify"><h3>Verify a certificate</h3><p>Send the certificate code and the student's name on WhatsApp and our team will confirm its authenticity.</p><a class="more" href="https://wa.me/923290739313?text=I%20want%20to%20verify%20a%20certificate.%20Certificate%20code%3A%20">Verify on WhatsApp →</a></div></div>
+</div></section>
+
+<section><div class="wrap"><span class="eyebrow">Location</span><h2>Where we operate</h2><p class="lead">Our office is in Lahore and our classes reach students across Pakistan.</p><div class="map-box"><iframe title="Map of Pakistan showing our Lahore office" src="https://www.openstreetmap.org/export/embed.html?bbox=60.5%2C23.2%2C77.9%2C37.3&layer=mapnik&marker=31.5204%2C74.3587" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="map-note"><span>Pakistan · Office marker: Lahore</span><a href="https://www.openstreetmap.org/?mlat=31.5204&mlon=74.3587#map=5/30.4/69.3" target="_blank" rel="noopener">View larger map</a></div></div></div></section>
 </main>
 <footer><div class="wrap">
 <div class="grid">
-<div><a class="logo" href="index.html"><i></i>Rich Think Technologies</a><p>Practical IT training, internships and software services for young people and businesses in Pakistan.</p></div>
+<div><a class="logo" href="index.html"><img src="images/favicon.svg" alt="" width="34" height="34">Rich Think Technologies</a><p>Practical IT training, internships and software services for young people and businesses across Pakistan.</p></div>
 <div><h4>Programs</h4><ul><li><a href="courses.html">Courses</a></li><li><a href="index.html#scholarships">Scholarships</a></li><li><a href="index.html#internships">Internships</a></li><li><a href="index.html#about">About us</a></li></ul></div>
-<div><h4>Info desk</h4><ul><li><a href="index.html#apply-steps">How to apply</a></li><li><a href="index.html#faqs">FAQs</a></li><li><a href="contact.html">Verify certificate</a></li></ul></div>
-<div><h4>Contact us</h4><ul><li>Office address, Lahore</li><li>0300-0000000</li><li>info@richthink.com</li><li>Office: 11:00 AM – 6:00 PM<br>Online admissions open 24/7</li></ul></div>
+<div><h4>Info desk</h4><ul><li><a href="index.html#apply-steps">How to apply</a></li><li><a href="index.html#faqs">FAQs</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li><li><a href="contact.html#verify">Verify certificate</a></li></ul></div>
+<div><h4>Contact us</h4><ul><li>Office address, Lahore, Pakistan</li><li><a href="tel:+923290739313">0329-0739313</a></li><li><a href="https://wa.me/923290739313">WhatsApp: 0329-0739313</a></li><li><a href="mailto:info@richthink.com">info@richthink.com</a></li><li>Office: 11:00 AM – 6:00 PM<br>Online admissions open 24/7</li></ul></div>
 </div>
-<div class="copy">© 2026 Rich Think Technologies. All rights reserved.</div>
+<div class="copy"><span>© 2026 Rich Think Technologies. All rights reserved.</span><span><a href="terms.html">Terms &amp; Conditions</a></span></div>
 </div></footer>
-<a class="wa" href="https://wa.me/923000000000?text=Hi%2C%20I%20found%20you%20on%20your%20website.%20I%20want%20some%20information." aria-label="Chat on WhatsApp">WhatsApp</a>
+<a class="wa" href="https://wa.me/923290739313?text=Hi%2C%20I%20found%20you%20on%20your%20website.%20I%20want%20some%20information." aria-label="Chat on WhatsApp">WhatsApp</a>
 <script src="js/main.js"></script>
 </body></html>

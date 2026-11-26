@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-hidden="true">
+<defs><linearGradient id="gfreelancing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A3B2C"/><stop offset="1" stop-color="#146C43"/></linearGradient></defs>
+<rect width="480" height="300" fill="url(#gfreelancing)"/>
+<circle cx="410" cy="40" r="110" fill="#FFFFFF" opacity=".05"/><circle cx="40" cy="290" r="120" fill="#2E9E68" opacity=".12"/>
+
+<rect x="110" y="70" width="190" height="120" rx="10" fill="#FFFFFF"/><rect x="122" y="82" width="166" height="96" rx="4" fill="#146C43"/><rect x="80" y="190" width="250" height="14" rx="7" fill="#CFE8D8"/>
+<circle cx="380" cy="120" r="52" fill="#2E9E68"/><circle cx="380" cy="120" r="40" fill="none" stroke="#FFFFFF" stroke-width="3"/><text x="380" y="136" text-anchor="middle" font-family="sans-serif" font-size="44" font-weight="800" fill="#FFFFFF">$</text>
+<rect x="140" y="104" width="70" height="8" rx="4" fill="#CFE8D8"/><rect x="140" y="124" width="110" height="8" rx="4" fill="#CFE8D8" opacity=".7"/><rect x="140" y="144" width="50" height="8" rx="4" fill="#CFE8D8" opacity=".7"/>
+<text x="24" y="276" font-family="sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#CFE8D8">FREELANCING</text></svg>
